@@ -36,7 +36,7 @@ def load_model():
     with open('creditcard_model.pkl', 'rb') as f:
         return pickle.load(f)
 
-model = load_model()
+#model = load_model()
 
 # Dividir en columnas
 col1, col2 = st.columns([2, 3])
